@@ -22,7 +22,8 @@ export const QuizForm = ({onAdd}) => {
         }}
       >
         <StyledForm>
-          <Field name="topic" type="text" placeholder="Quiz topic..." />
+         
+         <Field name="topic" type="text" placeholder="Quiz topic..." />
           <Field name="time" type="number" />
           <Field name="questions" type="number" />
           <Field as="select" name="level">
